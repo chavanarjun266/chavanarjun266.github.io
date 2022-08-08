@@ -37,9 +37,16 @@
     position: absolute;
     z-index:-1;
 }
+.notDark .circle::before {
+    background-image: linear-gradient(to bottom, #87fbaf 0%, #f2ff5c 100%);
+}
 
 .achievement span:nth-of-type(2){
     color: var(--yellow);
+    font-family: sans-serif, Arial, Helvetica ;
+}
+.notDark .achievement span:nth-of-type(2){
+    color: var(--green);
     font-family: sans-serif, Arial, Helvetica ;
 }
 

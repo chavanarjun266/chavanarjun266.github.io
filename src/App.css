@@ -10,6 +10,7 @@
     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
     --orangeCard: rgba(252, 166, 31, 0.45);
     --yellowCard: rgba(245, 252, 31, 0.45);
+    --greenCard: rgb(35, 252, 31, 45%);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 
 }
@@ -33,6 +34,11 @@
     font-size: 16px;
     padding: 11px 26px 11px 26px;
     text-shadow: rgb(139 139 139) 0px 1px 11px;
+  }
+.notDark .button {
+    background: linear-gradient(180deg, #22ff00 26.71%, #3bff76 99.36%);
+    color: white;
+    box-shadow:0px 20px 24px 3px rgb(42 251 40 / 42%);
   }
   
   .button:hover {

@@ -8,13 +8,23 @@
     cursor: pointer;
 
 }
+.notDark .toggle{
+    border: 3px solid var(--green);
+
+}
 .toggle>*{
     width: 1rem;
     height: 1rem;
     color: var(--yellow);
 }
+.notDark .toggle>*{
+    color: var(--green);
+}
 .t-button{
     border-radius: 100%;
     background: var(--yellow);
     position: absolute;
+}
+.notDark .t-button{
+    background: var(--green);
 }

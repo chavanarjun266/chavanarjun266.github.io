@@ -27,6 +27,11 @@
   font-weight: bold;
   font-size: 3rem;
 }
+.notDark .i-name > :nth-child(3) {
+  color: var(--green);
+  font-weight: bold;
+  font-size: 3rem;
+}
 .i-name > :nth-child(4) {
   font-weight: 100;
   font-size: 14px;
@@ -100,6 +105,13 @@ a.instaTag{
   align-items: center;
   padding: 4px;
   color: var(--yellow);
+  text-decoration: none;
+}
+.notDark a.instaTag{
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  color: var(--green);
   text-decoration: none;
 }
 

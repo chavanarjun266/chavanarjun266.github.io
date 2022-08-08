@@ -19,6 +19,9 @@
 .t-heading span:nth-of-type(2){
     color: var(--yellow);
 }
+.notDark .t-heading span:nth-of-type(2){
+    color: var(--green);
+}
 
 .t-blur1{
     left: 38rem;
@@ -68,6 +71,9 @@
 
 .t-wrapper .swiper-pagination-bullet-active{
     background: var(--yellow);
+}
+.notDark .t-wrapper .swiper-pagination-bullet-active{
+    background: var(--green);
 }
 .swiper-pagination-bullet{
     background-color: transparent;

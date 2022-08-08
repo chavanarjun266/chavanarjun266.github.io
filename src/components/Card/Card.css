@@ -15,6 +15,9 @@
   border-radius: 19px;
   padding: 0px 26px 2rem 26px;
 }
+.notDark .card {
+  border: 7px solid var(--greenCard);
+}
 .card span:nth-of-type(2) {
   color: var(--gray);
   font-size: 16px;
