@@ -12,7 +12,7 @@ const Presentation = () => {
   
 
   return (
-    <div className="p-wrapper" id="testimonial" style={{height:'50vh'}}>
+    <div className="p-wrapper" id="testimonial">
       <div className="t-heading">
         <span style={{ color: darkMode ? "white" : "" }}>For more information, </span>
         <span>watch this video </span>
