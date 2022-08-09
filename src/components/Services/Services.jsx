@@ -31,7 +31,7 @@ const Services = () => {
           <br />
            you to grow your skillset and start your online business today.
         </spane>
-        <a href="https://leadsguru.in/?ref=Deepanshu29" target="__blank" style={{textDecoration:"none"}}>
+        <a href="https://leadsguru.in/?ref=Arjunchavan266" target="__blank" style={{textDecoration:"none"}}>
           <button className="button s-button">Buy Courses</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

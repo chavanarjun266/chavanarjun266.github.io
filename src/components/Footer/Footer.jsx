@@ -1,14 +1,17 @@
-import React from "react";
+import React,{useContext} from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
+import Wavegreen from "../../img/wavegreen.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 // import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 // import Gitub from "@iconscout/react-unicons/icons/uil-github";
-
+import { themeContext } from "../../Context";
 const Footer = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="footer">
-      <img src={Wave} alt="" style={{ width: "100%" }} />
+      <img src={darkMode?Wave:Wavegreen} alt="" style={{ width: "100%" }} />
       <div className="f-content">
       <a href="https://www.instagram.com/arjunchavan_ac/" style={{textDecoration:"none"}} target="__blank">
 

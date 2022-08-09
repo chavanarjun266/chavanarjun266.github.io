@@ -11,7 +11,9 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 // import Github from "../../img/github.png";
 // import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import Instagramgreen from "../../img/instagramgreen.png";
 import Youtube from '../../img/youtube.png'
+import Youtubegreen from '../../img/youtubegreen.png'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
@@ -39,10 +41,10 @@ const Intro = () => {
         <a className="button n-button" href="tel:+917028498179 ">WhatsApp me on &nbsp;+917028498179</a>
         <div className="social-icons">
         <a href="https://www.instagram.com/arjunchavan_ac/" target="__blank" className="instaTag">
-          <img src={Instagram} alt="Instagram" height="30px" style={{padding:"7px"}}/>@arjunchavan_ac
+          <img src={darkMode?Instagram:Instagramgreen} alt="Instagram" height="30px" style={{padding:"7px"}}/>@arjunchavan_ac
           </a>
         <a href="https://www.youtube.com/channel/UCKh9ej7-7oYzMS4Ctrq8EmQ" target="__blank" className="instaTag">
-          <img src={Youtube} alt="Youtube" height="30px" style={{padding:"7px"}}/>Arjun Chavan
+          <img src={darkMode?Youtube:Youtubegreen} alt="Youtube" height="30px" style={{padding:"7px"}}/>Arjun Chavan
           </a>
         </div>
         {/* social icons */}
