@@ -15,9 +15,9 @@ const Footer = () => {
       <div className="f-content">
       <a href="https://www.instagram.com/arjunchavan_ac/" style={{textDecoration:"none"}} target="__blank">
 
-        <span style={{color:'black'}}>@arjunchavan_ac on </span>
+        <span style={{color:darkMode?"black":"white"}}>@arjunchavan_ac on </span>
         <div className="f-icons">
-          <Insta color="black" size={"3rem"} />
+          <Insta color={darkMode?"black":"white"} size={"3rem"} />
           {/* <Facebook color="white" size={"3rem"} /> */}
           {/* <Gitub color="white" size={"3rem"} /> */}
         </div>

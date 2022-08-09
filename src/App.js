@@ -26,10 +26,9 @@ function App() {
       <div className="mainContent">
 
       <Intro />
+      <Presentation />
       <Services />
       <Experience />
-
-      <Presentation />
       <Testimonial />
       {/* <Contact /> */}
       </div>

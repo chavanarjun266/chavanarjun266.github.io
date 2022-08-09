@@ -2,7 +2,7 @@
 {
   --yellow: yellow;
     --orange : #FCA61F;
-    --green : #4AD200;
+    --green : #d80000;
     --black : #242D49;
     --gray : #788097;
     --blueCard : #DDF8FE;
@@ -10,7 +10,7 @@
     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
     --orangeCard: rgba(252, 166, 31, 0.45);
     --yellowCard: rgba(245, 252, 31, 0.45);
-    --greenCard: rgb(35, 252, 31, 45%);
+    --greenCard: rgba(255, 0, 0, 0.626);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 
 }
@@ -36,18 +36,26 @@
     text-shadow: rgb(139 139 139) 0px 1px 11px;
   }
 .notDark .button {
-    background: linear-gradient(180deg, #22ff00 26.71%, #3bff76 99.36%);
+    background: linear-gradient(180deg, #ff0000 26.71%, #ff3b3b 99.36%);
     color: white;
-    box-shadow:0px 20px 24px 3px rgb(42 251 40 / 42%);
+    box-shadow:0px 20px 24px 3px rgba(251, 40, 40, 0.42);
   }
   
   .button:hover {
     background: white;
     cursor: pointer;
-    border: 1px solid var(--green);
-    color: var(--green);
+    /* border: 1px solid var(--green); */
+    /* color: var(--green);   */
     text-shadow: none;
-    box-shadow: 0px 20px 24px 3px rgb(42, 251, 40 , 42%);
+    /* box-shadow: 0px 20px 24px 3px rgba(251, 40, 40, 0.42); */
+  }
+ .notDark .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--green);
+    color: var(--green);  
+    text-shadow: none;
+    /* box-shadow: 0px 20px 24px 3px rgba(251, 40, 40, 0.42); */
   }
   @media screen and (max-width: 480px) {
     .mainContent {

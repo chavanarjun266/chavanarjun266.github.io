@@ -38,7 +38,7 @@
     z-index:-1;
 }
 .notDark .circle::before {
-    background-image: linear-gradient(to bottom, #87fbaf 0%, #f2ff5c 100%);
+    background-image: linear-gradient(to top, #ff4f4f 0%, #f2ff5c 100%);
 }
 
 .achievement span:nth-of-type(2){
