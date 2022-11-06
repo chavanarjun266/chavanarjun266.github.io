@@ -12,7 +12,7 @@ const Presentation = () => {
   
 
   return (
-    <div className="p-wrapper" id="testimonial">
+    <div className="p-wrapper" id="presentation">
       <div className="t-heading">
         <span style={{ color: darkMode ? "white" : "" }}>For more information, </span>
         <span>watch this video </span>
@@ -21,7 +21,7 @@ const Presentation = () => {
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>
-      <iframe src="https://www.youtube.com/embed/lGtudAIWexw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/p_hNLyWU7v4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   );
 };

@@ -14,6 +14,8 @@ import Instagram from "../../img/instagram.png";
 import Instagramgreen from "../../img/instagramgreen.png";
 import Youtube from '../../img/youtube.png'
 import Youtubegreen from '../../img/youtubegreen.png'
+import Telegram from '../../img/telegram.png'
+import TelegramRed from '../../img/telegramRed.png'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
@@ -45,6 +47,9 @@ const Intro = () => {
           </a>
         <a href="https://www.youtube.com/channel/UCKh9ej7-7oYzMS4Ctrq8EmQ" target="__blank" className="instaTag">
           <img src={darkMode?Youtube:Youtubegreen} alt="Youtube" height="30px" style={{padding:"7px"}}/>Arjun Chavan
+          </a>
+        <a href="https://t.me/arjunchavanofficial" target="__blank" className="instaTag">
+          <img src={darkMode?Telegram:TelegramRed} alt="Telegram" height="30px" style={{padding:"7px"}}/>@arjunchavanofficial
           </a>
         </div>
         {/* social icons */}

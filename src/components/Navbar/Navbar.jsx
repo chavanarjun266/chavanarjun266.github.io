@@ -25,9 +25,13 @@ const Navbar = () => {
     }}> */}
       {/* left */}
       <div className="n-left">
-      <a href="https://www.instagram.com/arjunchavan_ac/" target="__blank" style={{color:darkMode?"white":"black"}}>
-        <img src={deepanshu} />
-        <div className="n-name">@arjunchavan_ac</div>
+        <a
+          href="https://www.instagram.com/arjunchavan_ac/"
+          target="__blank"
+          style={{ color: darkMode ? "white" : "black" }}
+        >
+          <img src={deepanshu} />
+          <div className="n-name">@arjunchavan_ac</div>
         </a>
         <Toggle />
       </div>
@@ -36,13 +40,18 @@ const Navbar = () => {
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
             <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+              <Link activeClass="active" to="Start" spy={true} smooth={true}  style={{color: darkMode ? "white" : "black" }}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true}>
+              <Link to="services" spy={true} smooth={true}  style={{color: darkMode ? "white" : "black" }}>
                 Serivces
+              </Link>
+            </li>
+            <li>
+              <Link to="presentation" spy={true} smooth={true}  style={{color: darkMode ? "white" : "black" }}>
+                Presentation
               </Link>
             </li>
             {/* <li>
@@ -56,7 +65,7 @@ const Navbar = () => {
               </Link>
             </li> */}
             <li>
-              <Link to="testimonial" spy={true} smooth={true}>
+              <Link to="testimonial" spy={true} smooth={true} style={{color: darkMode ? "white" : "black" }}>
                 Testimonial
               </Link>
             </li>

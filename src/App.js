@@ -18,6 +18,7 @@ function App() {
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
       }}
+      id="Start"
     >
       <Navbar style={{
         background: darkMode ? "black" : "",
